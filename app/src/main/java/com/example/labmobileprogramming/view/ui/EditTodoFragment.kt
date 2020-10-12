@@ -1,4 +1,4 @@
-package com.example.labmobileprogramming.ui.main
+package com.example.labmobileprogramming.view.ui
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -9,6 +9,7 @@ import android.view.ViewGroup
 
 import com.example.labmobileprogramming.R
 import com.example.labmobileprogramming.model.TodoModel
+import com.example.labmobileprogramming.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.fragment_edit_todo.*
 import java.text.SimpleDateFormat
 import java.util.*

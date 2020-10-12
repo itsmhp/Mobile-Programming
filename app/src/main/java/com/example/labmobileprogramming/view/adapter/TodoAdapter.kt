@@ -1,11 +1,11 @@
-package com.example.labmobileprogramming.adapter
+package com.example.labmobileprogramming.view.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.labmobileprogramming.HasItemRecyclerView
+import com.example.labmobileprogramming.view.`interface`.HasItemRecyclerView
 import com.example.labmobileprogramming.R
 import com.example.labmobileprogramming.model.TodoModel
 import kotlinx.android.synthetic.main.item_recycler.view.*
@@ -13,7 +13,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 
-class TodoAdapter(val items : ArrayList<TodoModel>, val context: Context, val caller:HasItemRecyclerView) : RecyclerView.Adapter<ViewHolder>() {
+class TodoAdapter(val items : ArrayList<TodoModel>, val context: Context, val caller: HasItemRecyclerView) : RecyclerView.Adapter<ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(LayoutInflater.from(context).inflate(R.layout.item_recycler, parent, false))
     }

@@ -1,8 +1,8 @@
-package com.example.labmobileprogramming
+package com.example.labmobileprogramming.view.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.labmobileprogramming.ui.main.MainFragment
+import com.example.labmobileprogramming.R
 
 class Lab4Activity : AppCompatActivity() {
 

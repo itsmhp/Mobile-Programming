@@ -1,4 +1,4 @@
-package com.example.labmobileprogramming.ui.main
+package com.example.labmobileprogramming.view.ui
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -8,10 +8,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.labmobileprogramming.HasItemRecyclerView
+import com.example.labmobileprogramming.view.`interface`.HasItemRecyclerView
 import com.example.labmobileprogramming.R
-import com.example.labmobileprogramming.adapter.TodoAdapter
+import com.example.labmobileprogramming.view.adapter.TodoAdapter
 import com.example.labmobileprogramming.model.TodoModel
+import com.example.labmobileprogramming.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.fragment_main.*
 
 class MainFragment : Fragment(), HasItemRecyclerView {

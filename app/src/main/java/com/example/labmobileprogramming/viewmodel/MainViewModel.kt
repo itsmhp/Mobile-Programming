@@ -1,4 +1,4 @@
-package com.example.labmobileprogramming.ui.main
+package com.example.labmobileprogramming.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.example.labmobileprogramming.model.TodoModel
